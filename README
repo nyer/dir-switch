@@ -1,4 +1,4 @@
-dir swith tools
+dir switch tools
 mark hello:
 	mark current directory as a mark named hello.
 jump hello:
