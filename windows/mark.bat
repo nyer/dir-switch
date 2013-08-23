@@ -10,5 +10,6 @@ goto makelink
 
 :makelink
 cd %MARKPATH%
-mklink /D "%1" "%TAR%"
+touch %1
+echo %TAR% > %1
 cd %TAR%
