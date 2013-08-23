@@ -1,0 +1,9 @@
+dir swith tools
+mark hello:
+	mark current directory as a mark named hello.
+jump hello:
+	jump to the directory marked as hello
+unmark hello:
+	remove the mark.
+marks:
+	list the marks.
