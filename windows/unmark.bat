@@ -1,3 +1,3 @@
 @echo off
 set MARKPATH=D:\marks
-rd %MARKPATH%\%1
+del %MARKPATH%\%1
